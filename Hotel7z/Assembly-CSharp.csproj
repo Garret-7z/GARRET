@@ -124,11 +124,12 @@
     <Compile Include="Assets\StarterKit-MoveCamAI\StarterKit\Scripts\Player\LastPosition.cs" />
     <Compile Include="Assets\StarterKit-MoveCamAI\StarterKit\Scripts\Player\Tidy.cs" />
     <None Include="Assets\StarterKit-MoveCamAI\StarterKit\Documentation\ReadMe.txt" />
+    <None Include="Assets\Tim's Assets\Doors\Shader\BloodyDoor.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/money/Documents/practice/Hotel7z/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/money/Documents/practice/GARRET/Hotel7z/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/money/Documents/practice/Hotel7z/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/money/Documents/practice/GARRET/Hotel7z/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

@@ -8,12 +8,12 @@ public class FirstPersonMove : MonoBehaviour {
     Rigidbody rigidbody_;
     Collider col_;
     // Rotation variables
-    private float   rotY,
+    public float   rotY,
 					rotX,
 					sensitivity = 10.0f;
 	
 	// Speed variables
-	private float   speed = 10f,
+	public float   speed = 10f,
 	 				speedHalved = 7.5f,
 	 				speedOrigin = 10f;
    
@@ -26,9 +26,15 @@ public class FirstPersonMove : MonoBehaviour {
         rigidbody_ = GetComponent<Rigidbody>();
         col_ = GetComponent<Collider>();
     }
-	
-	// FixedUpdate is used for physics based movement
-	void FixedUpdate ()
+
+    
+    void Update()
+    {
+        
+        
+    }
+    // FixedUpdate is used for physics based movement
+    void FixedUpdate ()
 	{
 		float horizontal = Input.GetAxis("Horizontal"); // set a float to control horizontal input
 		float vertical = Input.GetAxis("Vertical"); // set a float to control vertical input
@@ -78,6 +84,13 @@ public class FirstPersonMove : MonoBehaviour {
 			}
 		}
 	}
+
+    private void Raycast()
+    {
+   
+        
+    }
+    
 	
 	private bool IsGrounded()
 	{

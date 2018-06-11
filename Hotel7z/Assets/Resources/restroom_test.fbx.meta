@@ -1,0 +1,246 @@
+fileFormatVersion: 2
+guid: 4069123bd4e964442908f538f328f5d4
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: 3dstylish00
+    100002: 3dstylish01
+    100004: 3dstylish02
+    100006: 3dstylish03
+    100008: 3dstylish04
+    100010: 3dstylish05
+    100012: Basin
+    100014: Basin pedestal
+    100016: basin plughole
+    100018: Box004
+    100020: Box02
+    100022: Box03
+    100024: Button03
+    100026: Cylinder05
+    100028: Cylinder40
+    100030: Cylinder50
+    100032: facuet
+    100034: Faucet
+    100036: GROUP
+    100038: inset03
+    100040: lever
+    100042: mirror
+    100044: MIXERTAP
+    100046: pipes
+    100048: //RootNode
+    100050: stem
+    100052: tap
+    100054: tub
+    100056: Tub_ClawfootBathTub
+    100058: tub_leg
+    100060: tub_leg01
+    100062: tub_leg02
+    100064: tub_leg03
+    400000: 3dstylish00
+    400002: 3dstylish01
+    400004: 3dstylish02
+    400006: 3dstylish03
+    400008: 3dstylish04
+    400010: 3dstylish05
+    400012: Basin
+    400014: Basin pedestal
+    400016: basin plughole
+    400018: Box004
+    400020: Box02
+    400022: Box03
+    400024: Button03
+    400026: Cylinder05
+    400028: Cylinder40
+    400030: Cylinder50
+    400032: facuet
+    400034: Faucet
+    400036: GROUP
+    400038: inset03
+    400040: lever
+    400042: mirror
+    400044: MIXERTAP
+    400046: pipes
+    400048: //RootNode
+    400050: stem
+    400052: tap
+    400054: tub
+    400056: Tub_ClawfootBathTub
+    400058: tub_leg
+    400060: tub_leg01
+    400062: tub_leg02
+    400064: tub_leg03
+    2100000: 07 - Default
+    2100002: m#1
+    2100004: m#2
+    2100006: m#3
+    2100008: white
+    2100010: Wood Mix
+    2100012: Flat Mirror
+    2100014: No Name
+    2100016: 'Material #25'
+    2100018: 'Material #26'
+    2300000: 3dstylish00
+    2300002: 3dstylish01
+    2300004: 3dstylish02
+    2300006: 3dstylish03
+    2300008: 3dstylish04
+    2300010: 3dstylish05
+    2300012: Basin
+    2300014: Basin pedestal
+    2300016: Box004
+    2300018: Box02
+    2300020: Box03
+    2300022: Button03
+    2300024: Cylinder05
+    2300026: Cylinder40
+    2300028: Cylinder50
+    2300030: facuet
+    2300032: Faucet
+    2300034: inset03
+    2300036: lever
+    2300038: mirror
+    2300040: pipes
+    2300042: stem
+    2300044: tap
+    2300046: tub
+    2300048: tub_leg
+    2300050: tub_leg01
+    2300052: tub_leg02
+    2300054: tub_leg03
+    3300000: 3dstylish00
+    3300002: 3dstylish01
+    3300004: 3dstylish02
+    3300006: 3dstylish03
+    3300008: 3dstylish04
+    3300010: 3dstylish05
+    3300012: Basin
+    3300014: Basin pedestal
+    3300016: Box004
+    3300018: Box02
+    3300020: Box03
+    3300022: Button03
+    3300024: Cylinder05
+    3300026: Cylinder40
+    3300028: Cylinder50
+    3300030: facuet
+    3300032: Faucet
+    3300034: inset03
+    3300036: lever
+    3300038: mirror
+    3300040: pipes
+    3300042: stem
+    3300044: tap
+    3300046: tub
+    3300048: tub_leg
+    3300050: tub_leg01
+    3300052: tub_leg02
+    3300054: tub_leg03
+    4300000: Box02
+    4300002: Cylinder05
+    4300004: Cylinder40
+    4300006: Cylinder50
+    4300008: Box03
+    4300010: 3dstylish05
+    4300012: 3dstylish00
+    4300014: 3dstylish01
+    4300016: 3dstylish02
+    4300018: 3dstylish03
+    4300020: 3dstylish04
+    4300022: tub_leg
+    4300024: tub_leg01
+    4300026: tub_leg02
+    4300028: tub_leg03
+    4300030: pipes
+    4300032: facuet
+    4300034: tub
+    4300036: mirror
+    4300038: Box004
+    4300040: Button03
+    4300042: inset03
+    4300044: tap
+    4300046: lever
+    4300048: stem
+    4300050: Faucet
+    4300052: Basin
+    4300054: Basin pedestal
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
