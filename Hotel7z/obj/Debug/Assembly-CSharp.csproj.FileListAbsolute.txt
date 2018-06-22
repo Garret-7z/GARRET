@@ -1,0 +1,2 @@
+C:\Users\money\Documents\practice\GARRET\Hotel7z\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\money\Documents\practice\GARRET\Hotel7z\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache

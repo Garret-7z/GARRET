@@ -59,10 +59,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Ameye\Alex's Door System Lite\Scripts\DoorDetectionLite.cs" />
+    <Compile Include="Assets\Ameye\Alex's Door System Lite\Scripts\DoorRotationLite.cs" />
+    <Compile Include="Assets\Ameye\Alex's Door System Lite\Scripts\Helper Scripts\ConditionalHideAttribute.cs" />
+    <Compile Include="Assets\Ameye\Alex's Door System Lite\Scripts\Helper Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Ameye\Alex's Door System Lite\Scripts\Helper Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Ameye\Alex's Door System Lite\Scripts\Helper Scripts\RotationTools.cs" />
+    <Compile Include="Assets\Ameye\Alex's Door System Lite\Scripts\Helper Scripts\StayPositiveAttribute.cs" />
     <Compile Include="Assets\eventexample.cs" />
+    <Compile Include="Assets\Hotel_Script\Sc_Door.cs" />
+    <Compile Include="Assets\Hotel_Script\Sc_DoorTemp.cs" />
     <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Assets\Sc_Camera.cs" />
-    <Compile Include="Assets\Sc_Player.cs" />
     <Compile Include="Assets\Script\Es_phone.cs" />
     <Compile Include="Assets\Script\Event\scEnding03.cs" />
     <Compile Include="Assets\Script\Event\scEventFirst.cs" />
@@ -124,7 +132,7 @@
     <Compile Include="Assets\StarterKit-MoveCamAI\StarterKit\Scripts\Player\LastPosition.cs" />
     <Compile Include="Assets\StarterKit-MoveCamAI\StarterKit\Scripts\Player\Tidy.cs" />
     <None Include="Assets\StarterKit-MoveCamAI\StarterKit\Documentation\ReadMe.txt" />
-    <None Include="Assets\Tim's Assets\Doors\Shader\BloodyDoor.shader" />
+    <None Include="Assets\DoorAssets\Doors\Shader\BloodyDoor.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/money/Documents/practice/GARRET/Hotel7z/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

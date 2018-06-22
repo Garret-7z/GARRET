@@ -6,6 +6,8 @@ TagManager:
   tags:
   - LastPosition
   - OBJ
+  - DOOR
+  - Door
   layers:
   - Default
   - TransparentFX
