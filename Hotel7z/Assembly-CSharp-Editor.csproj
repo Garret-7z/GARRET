@@ -67,6 +67,8 @@
     <Compile Include="Assets\Ameye\Alex's Door System Lite\Editor\ErrorWindow.cs" />
     <Compile Include="Assets\Ameye\Alex's Door System Lite\Editor\SupportWindow.cs" />
     <Compile Include="Assets\Ameye\Alex's Door System Lite\Editor\TagHelper.cs" />
+    <Compile Include="Assets\MagicMirror\Prefab\Editor\MagicMirrorEditor.cs" />
+    <None Include="Assets\EffectExamples\Editor\PackageManagerAssembly\PackageImportList.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/money/Documents/practice/GARRET/Hotel7z/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -309,6 +311,9 @@
     </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.2f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="PackageManagerAssembly">
+      <HintPath>C:/Users/money/Documents/practice/GARRET/Hotel7z/Assets/EffectExamples/Editor/PackageManagerAssembly/PackageManagerAssembly.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/money/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>

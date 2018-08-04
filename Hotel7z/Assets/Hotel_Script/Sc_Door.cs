@@ -14,14 +14,15 @@ public class Sc_Door : MonoBehaviour {
     string strAnimator = "open";
 
     public GameObject MainDoor;
+
+
     void Start()
     {
         animator = MainDoor.GetComponent<Animator>();
-        
     }
     void Update () {
-		
-	}
+        //this.transform.GetComponent<Renderer>().material.SetFloat("_BloodAmount", 0.5f);
+    }
     public void DOORTEST()
     {
 
@@ -35,71 +36,32 @@ public class Sc_Door : MonoBehaviour {
             animator.SetBool(strAnimator, false);
         }
 
-        //if (animator.GetBool(strAnimator) == false ) //닫혀있다면 연다 
-        //{
-        //    Debug.Log("DOOR TEST" + animator.GetBool(strAnimator));
-        //    if (!nowOpning) // 열리는 중이면 가만히 있어라 
-        //    {
-        //        animator.SetBool(strAnimator, true);
-        //    }
-        //    else
-        //    {
-        //        Debug.Log("열리고있어 기다려!");
-        //    }
-
-        //}
-
-        //if(animator.GetBool(strAnimator) == true ) // 열려 있다면 닫힌다.
-        //{
-        //    if (!nowclosing) // 열리는 중이면 가만히 있어라 
-        //    {
-        //        animator.SetBool(strAnimator, false);
-        //    }
-        //    else
-        //    {
-        //        Debug.Log("닫히고 있어 기다려!");
-        //    }
-        //}
 
     }
     public void doorOpen()
     {
+        
+        if (isLock) // true 잠겨있다. false 열려있다.
+        {
+            Sc_Sound._Instance.Run(2, this.transform);
 
-        Debug.Log("DEEEEEEEEEEEEP doorOpen 몇번 들어왔어?");
-        animator.SetBool(strAnimator, true);
-        isOpen = true;
-
+        }
+        else
+        {
+            Sc_Sound._Instance.Run(0, this.transform);
+            Debug.Log("DEEEEEEEEEEEEP doorOpen 몇번 들어왔어?");
+            animator.SetBool(strAnimator, true);
+            isOpen = true;
+        }
 
     }
     public void doorClose()
     {
+        Sc_Sound._Instance.Run(1, this.transform);
         Debug.Log("DEEEEEEEEEEEEP doorClose 몇번 들어왔어?");
         animator.SetBool(strAnimator, false);
         isOpen = false;
     }
-    public bool doorLock()
-    {
-        return true;
-    }
-    //public void startOpening()
-    //{
-    //    Debug.Log("startOpen()!");
-    //    nowOpning = true;
-    //}
-    //public void endOpening()
-    //{
-    //    Debug.Log("endOpen()!");
-    //    nowOpning = false;
-    //}
-    //public void startclosing()
-    //{
-    //    Debug.Log("startclosing()!");
-    //    nowOpning = true;
-    //}
-    //public void endclosing()
-    //{
-    //    Debug.Log("endclosing()!");
-    //    nowOpning = false;
-    //}
+
 
 }

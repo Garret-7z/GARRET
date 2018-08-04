@@ -53,7 +53,7 @@ public class scObject : MonoBehaviour
             
             // interactionMesh.enabled = true;
             print("e눌림");
-            scPlayer.play = !scPlayer.play;
+            //scPlayer.play = !scPlayer.play;
 
             if (Input.GetMouseButton(0) && dragging)
             {

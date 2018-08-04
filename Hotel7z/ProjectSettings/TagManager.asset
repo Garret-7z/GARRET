@@ -7,7 +7,12 @@ TagManager:
   - LastPosition
   - OBJ
   - DOOR
-  - Door
+  - MEDICINE
+  - DMGROOM
+  - ENEMY
+  - SAFEZONE
+  - CHANGE/Mirror/MirrorReflection
+  - CHANGE/TimsAssets_Door/Door_Wood/Door_Main1
   layers:
   - Default
   - TransparentFX
