@@ -205,13 +205,23 @@ public class FirstPersonMove : MonoBehaviour {
             //Debug.Log("bloodyDoorMaterialChangeInt : " + bloodyDoorMaterialChangeInt);
             //Debug.Log("Sc_Gamebalancer.mentality : " + Sc_Gamebalancer.mentality);
             //Debug.Log("mental : " + mental);
-            Sc_GameMng.instance.bloodyDoorPR.SetFloat("_BloodAmount", bloodyDoorMaterialChangeInt);
+
+           // Sc_GameMng.instance.bloodyDoorPR.SetFloat("_BloodAmount", bloodyDoorMaterialChangeInt);
+            foreach (GameObject obj in Sc_GameMng.instance.gameObjects_Door)
+            {
+                obj.GetComponent<Renderer>().material.SetFloat("_BloodAmount", bloodyDoorMaterialChangeInt);
+            }
+
             float fTemp = 1.0f - (mental / 25.0f);
             if (fTemp > 1.2)
             {
                 fTemp = 1f;
             }
-            Sc_GameMng.instance.mirrorMaterial.SetColor("_ReflectionColor", new Color(1.0f- fTemp, 0, 0));
+            //Sc_GameMng.instance.mirrorMaterial.SetColor("_ReflectionColor", new Color(1.0f- fTemp, 0, 0));
+            foreach (GameObject obj in Sc_GameMng.instance.gameObjects_Mirror)
+            {
+                obj.GetComponent<Renderer>().material.SetColor("_ReflectionColor", new Color(1.0f - fTemp, 0, 0));
+            }
             //Debug.Log("25<Color : " + (1.0f - fTemp));
 
         }
@@ -226,13 +236,28 @@ public class FirstPersonMove : MonoBehaviour {
             //Debug.Log("bloodyDoorMaterialChangeInt : " + bloodyDoorMaterialChangeInt);
             //Debug.Log("Sc_Gamebalancer.mentality : " + Sc_Gamebalancer.mentality);
             //Debug.Log("mental : " + mental);
-            Sc_GameMng.instance.bloodyDoorPR.SetFloat("_BloodAmount", bloodyDoorMaterialChangeInt);
+
+
+            //Sc_GameMng.instance.bloodyDoorPR.SetFloat("_BloodAmount", bloodyDoorMaterialChangeInt);
+            foreach (GameObject obj in Sc_GameMng.instance.gameObjects_Door)
+            {
+                obj.GetComponent<Renderer>().material.SetFloat("_BloodAmount", bloodyDoorMaterialChangeInt);
+            }
+
+
+
+
             float fTemp = 1.0f - ((mental - 25.0f) / 25.0f);
             if(fTemp >1.2)
             {
                 fTemp = 0.9f;
             }
-            Sc_GameMng.instance.mirrorMaterial.SetColor("_ReflectionColor", new Color(1, 1.0f - fTemp, 1.0f -fTemp));
+
+            //Sc_GameMng.instance.mirrorMaterial.SetColor("_ReflectionColor", new Color(1, 1.0f - fTemp, 1.0f -fTemp));
+            foreach (GameObject obj in Sc_GameMng.instance.gameObjects_Mirror)
+            {
+                obj.GetComponent<Renderer>().material.SetColor("_ReflectionColor", new Color(1, 1.0f - fTemp, 1.0f - fTemp));
+            }
             //Debug.Log("50<Color : Mental " + mental);
             //Debug.Log("50<Color : Mental 2 " + (((mental - 25.0f) / 25.0f)));
             //Debug.Log("50<Color : " + fTemp);
@@ -248,15 +273,27 @@ public class FirstPersonMove : MonoBehaviour {
             //Debug.Log("bloodyDoorMaterialChangeInt : " + bloodyDoorMaterialChangeInt);
             //Debug.Log("Sc_Gamebalancer.mentality : " + Sc_Gamebalancer.mentality);
             //Debug.Log("mental : " + mental);
-            Sc_GameMng.instance.bloodyDoorPR.SetFloat("_BloodAmount", bloodyDoorMaterialChangeInt);
-            Sc_GameMng.instance.mirrorMaterial.SetColor("_Color", new Color(1.0f - (((mental - 50.0f) / 25.0f)), 0, 0));
+
+
+            //Sc_GameMng.instance.bloodyDoorPR.SetFloat("_BloodAmount", bloodyDoorMaterialChangeInt);
+            foreach (GameObject obj in Sc_GameMng.instance.gameObjects_Door)
+            {
+                obj.GetComponent<Renderer>().material.SetFloat("_BloodAmount", bloodyDoorMaterialChangeInt);
+            }
+
+            //Sc_GameMng.instance.mirrorMaterial.SetColor("_Color", new Color(1.0f - (((mental - 50.0f) / 25.0f)), 0, 0));
+            foreach (GameObject obj in Sc_GameMng.instance.gameObjects_Mirror)
+            {
+                obj.GetComponent<Renderer>().material.SetColor("_Color", new Color(1.0f - (((mental - 50.0f) / 25.0f)), 0, 0));
+            }
             //Debug.Log("75 < Color Mental : " + ((mental - 50.0f) / 25.0f));
             //Debug.Log("75<Color : " + (1.0f - ((mental - 50.0f) / 25.0f)));
         }
         else if (Sc_Gamebalancer.mentality <= 100)
         {
             //Debug.Log("mentality  100미만");
-            
+
+            //신경도에 따른 비례식
             float material_max = 0.7f;
             float material_min = 0f;
             bloodyDoorMaterialChangeInt = ((float)(mental - 75.0f) / 25.0f) * (material_max - material_min);
@@ -264,7 +301,12 @@ public class FirstPersonMove : MonoBehaviour {
             //Debug.Log("bloodyDoorMaterialChangeInt : " + bloodyDoorMaterialChangeInt);
             //Debug.Log("Sc_Gamebalancer.mentality : " + Sc_Gamebalancer.mentality);
             //Debug.Log("mental : " + mental);
-            Sc_GameMng.instance.bloodyDoorPR.SetFloat("_BloodAmount", bloodyDoorMaterialChangeInt);
+
+            //Sc_GameMng.instance.bloodyDoorPR.SetFloat("_BloodAmount", bloodyDoorMaterialChangeInt);
+            foreach (GameObject obj in Sc_GameMng.instance.gameObjects_Door)
+            {
+                obj.GetComponent<Renderer>().material.SetFloat("_BloodAmount", bloodyDoorMaterialChangeInt);
+            }
         }
     }
     void OnTriggerEnter(Collider col)

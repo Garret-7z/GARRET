@@ -13,6 +13,8 @@ TagManager:
   - SAFEZONE
   - CHANGE/Mirror/MirrorReflection
   - CHANGE/TimsAssets_Door/Door_Wood/Door_Main1
+  - TEST/123
+  - TEST72
   layers:
   - Default
   - TransparentFX

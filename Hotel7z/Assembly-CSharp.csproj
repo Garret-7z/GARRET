@@ -82,6 +82,7 @@
     <Compile Include="Assets\Hotel_Script\Sc_Gamebalancer.cs" />
     <Compile Include="Assets\Hotel_Script\Sc_GameMng.cs" />
     <Compile Include="Assets\Hotel_Script\Sc_GameUi.cs" />
+    <Compile Include="Assets\Hotel_Script\Sc_lab.cs" />
     <Compile Include="Assets\Hotel_Script\Sc_Sound.cs" />
     <Compile Include="Assets\MagicMirror\Demo\DemoScript.cs" />
     <Compile Include="Assets\MagicMirror\Prefab\MirrorCameraScript.cs" />
